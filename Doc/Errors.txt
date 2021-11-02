@@ -1,0 +1,16 @@
+
+Error: L6218E: Undefined symbol Image$$ARM_LIB_STACK$$ZI$$Limit (referred from startup_armcm3.o).
+
+To do this::
+
+1) Open the Options for Target window:  pastedImage_3.png
+
+2) Select the Linker tab.
+
+3) Unselect "Use memory Layout from Target Dialog".
+
+4) Select an appropriate .sct file as shown below.  On my project, this is found in the RTE folder.
+
+https://community.nxp.com/t5/S32K/In-Keil-S32K144-Undefined-symbol-refered-from-startup-o/m-p/666499
+-修改scatter file
+-.\RTE\Device\ARMCM3\ARMCM3_ac5.sct
