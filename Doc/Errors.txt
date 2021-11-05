@@ -1,5 +1,5 @@
 
-Error: L6218E: Undefined symbol Image$$ARM_LIB_STACK$$ZI$$Limit (referred from startup_armcm3.o).
+-Error: L6218E: Undefined symbol Image$$ARM_LIB_STACK$$ZI$$Limit (referred from startup_armcm3.o).
 
 To do this::
 
@@ -14,3 +14,7 @@ To do this::
 https://community.nxp.com/t5/S32K/In-Keil-S32K144-Undefined-symbol-refered-from-startup-o/m-p/666499
 -修改scatter file
 -.\RTE\Device\ARMCM3\ARMCM3_ac5.sct
+
+
+
+-debug之前必须编译
